@@ -31,4 +31,4 @@ function Hero({heroData,setHeroCount,heroCount,setPlayStatus,playStatus}) {
   )
 }
 
-export default Hero
+export default Hero;

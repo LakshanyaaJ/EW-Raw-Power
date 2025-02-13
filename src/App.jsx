@@ -11,13 +11,13 @@ const App = () => {
   {text1:"Raw-power", text2:"Gives elagance"},
   {text1:"", text2:""},
  ]
- const[heroCount,setHeroCount]= useState(1);
+ const[heroCount,setHeroCount]= useState(0);
  const[playStatus,setPlayStatus]= useState(false);
 
  useEffect(()=>{
   setInterval(() =>{
     setHeroCount((count)=>{return count===4?0:count+1})
-  },5000)
+  },4000)
  },[])
   return (
     <div>
